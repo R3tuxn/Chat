@@ -6,10 +6,10 @@ import java.util.Scanner;
 import core.main.actions.*;
 
 public class main {
-
+    
     public static void main(String[] args) {
 
-        if(args[0].length() < 2) {
+        if(args.length < 2) {
             System.out.println("Usage:\nAs Server: -l <port>\nAs Client: <hostaddress> <port>");
             return;
         }
